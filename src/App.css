@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Raleway', sans-serif;
+  background: url(background.png) no-repeat center center fixed;
+  background-color: #d7e6e3;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2 {
+  font-family: 'Smokum', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.test {
+  border: 1px solid green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Landing  Page */
+.landing-page {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-title-div {
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.landing-title {
   color: white;
+  margin: 0rem;
+  text-transform: capitalize;
+  letter-spacing: 0.75rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 176px;
 }
 
-.App-link {
-  color: #61dafb;
+.landing-sub {
+  color: white;
+  text-transform: capitalize;
+  margin: 0rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landing-search {
+  background: #ae352a;
+  border-radius: 10;
+  border: transparent !important;
+  width: 400px;
+}
+
+.landing-button {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 500 !important;
+  background: #eecdca !important;
+  border-radius: 10;
+  border: transparent;
+  height: calc(1.5em + 0.75rem + 2px);
 }
